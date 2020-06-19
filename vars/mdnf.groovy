@@ -1,5 +1,6 @@
 
-def call(String name ='empty', int age) {
+def call(Map config) {
 
-	echo 'Hello mdnf'
+	echo 'Hello ${config.name}.'
+	echo 'You are ${config.age}!'
 }
