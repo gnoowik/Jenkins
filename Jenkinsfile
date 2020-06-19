@@ -1,4 +1,6 @@
+#!groovy
 @Library('mlib')
+
 pipeline {
     agent any 
     stages {
