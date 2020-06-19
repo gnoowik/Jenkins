@@ -1,5 +1,5 @@
 #!groovy
-@Library('mlib')_
+@Library('./mlib')_
 
 pipeline {
     agent any 
